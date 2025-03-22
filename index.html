@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad AMAL</title>
+    <link rel = "stylesheet" href="style.css" /> 
+    <link rel = "stylesheet" href="mediaqueries.css" /> 
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Saad AMAL</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#formation">Formation</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Saad AMAL</div>
+        <dic class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">À propos</a></li>
+                <li><a href="#formation" onclick="toggleMenu()">Formation</a></li>
+                <li><a href="#competences" onclick="toggleMenu()">Compétences</a></li>
+                <li><a href="#projets" onclick="toggleMenu()">Projets</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic-1.png" alt="photo de profile Saad AMAL" class="profile-pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1"> Bonjour, c'est</p>
+            <h1 class="title">Saad AMAL</h1>
+            <p class="section__text__p2"> Étudiant ingénieur en informatique</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/CV-AMAL-Saad.pdf')">
+                    <i class="fas fa-download"></i> Télécharger mon CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    <i class="fas fa-download"></i> Contact info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="Mon profile linkedin" class="icon" onclick="location.href='https://www.linkedin.com/in/saad-amal/'">
+                <img src="./assets/github.png" alt="Mon profile github" class="icon" onclick="location.href='https://github.com/Saad-eng-pr'">
+            </div>
+        </div>    
+    </section>    
+
+    <section id="about">
+        <p class="section__text__p1">Apprenez-en plus </p>
+        <h1 class="title">sur moi</h1>
+    
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                                <div class="text-container">
+                                    <p>  Je suis Saad Amal, un étudiant en ingénierie informatique, actuellement en formation au sein de l'ISIMA (Institut Supérieur d'Informatique, de Modélisation et de leurs Applications) 
+                                        à Clermont-Ferrand. 
+                                        Passionné par le développement logiciel et les systèmes informatiques, je cherche à transformer mes connaissances académiques en solutions concrètes et innovantes.
+                                        <br>
+                                          En dehors de mon parcours académique, je suis un grand amateur de jeux stratégiques, notamment les échecs <a href="https://www.chess.com/member/saad_amal02" target="_blank">(prêt à relever un défi ?).</a> 
+                                          J’aime également résoudre des Rubik’s Cube, un exercice qui me permet d’affiner ma réflexion logique et ma rapidité d’analyse. 
+                                          Enfin, <a href="https://fr.pinterest.com/saa6amal/_created" target="_blank">la photographie</a> est une autre de mes passions, me permettant de capturer et d’interpréter le monde sous un nouvel angle.
+                                    </p>
+                                </div>
+                    </div>
+                </div>
+                
+            </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#formation'">
+    </section>
+
+    <section id="formation"> 
+        <p class="section__text__p1">Mon parcours académique</p>
+        <h1 class="title">Formation</h1>
+        <div class="formation-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="formation-sub-title"> Diplôme d'ingénieur</h2>
+                    <a href="https://www.isima.fr/" target="_blank">ISIMA</a> <br>
+                    <p> Formation Génie Logiciel et Systèmes Informatiques <br>
+                        sept 2023 - sept 2026
+                    </p>
+                    
+                </div>
+                <div class="details-container">
+                    <h2 class="formation-sub-title">  Classes Préparatoires MP</h2>
+                    <a href="https://carnotprepas.com/" target="_blank">CPGE Carnot Prépas - Méknes, Maroc</a>
+                    <p>sept 2019 - sept 2023 </p>
+                    
+                </div>
+                <div class="details-container">
+                    <h2 class="formation-sub-title"> Baccalauréat en sciences maths A </h2>
+                    <a href="https://www.marocannuaire.org/Annuaire/Details_infos.php?e=EMILE%20ANOUAR&activite=Etablissement%20enseignement%20priv%C3%A9&ville=MEKNES&p=&id=32106&ref=" target="_blank">Etablissement Scolaire Emile Anouar</a>
+                    <p> 
+                        juin 2019  <br>
+                        Méknes, Maroc
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#competences'">
+    </section>
+
+    <section id="competences">
+        <p class="section__text__p1">Mes atouts techniques</p>
+        <h1 class="title">Compétences</h1>
+        <div class="competences-details-container">
+            <div class="competences">
+                <div class="competences-container">
+                    <!-- Carte n°1 -->
+                    <div class="competence-card">
+                        <h2 class="competences-sub-title"> Programmation</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>C/C++</h3></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>Java</h3></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>C#</h3></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>Python</h3></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>PL/SQL</h3></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>Git</h3></div>
+                            </article>
+                        </div>    
+                    </div>
+                </div>
+
+
+                <!-- Carte n°2 -->
+                <div class="competences-container">
+                    <div class="competence-card">
+                        <h2 class="competences-sub-title">  Développement WEB</h2>
+                    
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>HTML</h3></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>CSS</h3></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>JavaScript</h3></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>TypeScript</h3></div>
+                            </article>
+                        </div>
+                    </div>    
+                </div>
+
+
+                <!-- Carte n°3 -->
+                <div class="competences-container">
+                    <div class="competence-card">
+                        <h2 class="competences-sub-title">  Base de données</h2>
+                        
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>PostgreSQL</h3></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>Sqlite</h3></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>MySql</h3></div>
+                            </article>
+                        </div>
+                    </div>    
+                </div>
+
+
+                <!-- Carte n°4 -->
+                <div class="competences-container">
+                    <div class="competence-card">
+                        <h2 class="competences-sub-title"> Framework </h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>SpringBoot</h3> </div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>Angular</h3></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>.NET</h3></div>
+                            </article>
+                        </div>
+                    </div>    
+                </div>
+
+
+                <!-- Carte n°5 -->
+                <div class="competences-container">
+                    <div class="competence-card">
+                        <h2 class="competences-sub-title">  Systèmes d’exploitation </h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>Windows</h3></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>Unix/Linux</h3></div>
+                            </article>
+                        </div>
+                    </div>        
+                </div>
+
+
+                <!-- Carte n°6 -->
+                <div class="competences-container">
+                    <div class="competence-card">
+                        <h2 class="competences-sub-title">  Langues </h2>                    
+                        <div class="article-container">
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>Français</h3>
+                                <p>avancée</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>Anglais</h3>
+                                <p>courant</p></div>
+                            </article>
+                            <article>
+                                <img src="./assets/checkmark.png" 
+                                alt="competence icon"
+                                class="icon" />
+                                <div> <h3>Arabe</h3>
+                                <p>maternelle</p></div>
+                            </article>
+                        </div>
+                    </div>        
+                </div>
+                
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#projets'">
+    </section>    
+
+
+    <section id="projets">
+        <h1 class="title">Projets</h1>
+            <div class="competences-details-container">
+                <div class="competences">
+                    <div class="competences-container">
+                        <div class="competence-card">
+                            <img src="./assets/news.jpeg" alt="projet1" class="projet-img"  />
+                        
+                            <h2 class="competences-sub-title">NewsSpectrum</h2>
+                            <p class="description">Développement d’une application web permettant de comparer des articles issus de diverses sources afin de révéler les biais politiques. 
+                                L’interface, à la fois sécurisée et intuitive, intègre une recherche avancée ainsi qu’une catégorisation des articles par orientation médiatique. 
+                                Ce projet vise à offrir aux utilisateurs une vision plus objective de l’actualité en confrontant différentes perspectives journalistiques.
+                            </p>
+
+                            <div class="tech-buttons">
+                                <button class="tech-btn">SpringBoot</button>
+                                <button class="tech-btn">Java</button>
+                                <button class="tech-btn">Angular</button>
+                                <button class="tech-btn">TypeScript</button>
+                                <button class="tech-btn">HTML</button>
+                                <button class="tech-btn">CSS</button>
+                                <button class="tech-btn">PostgreSQL</button>
+                                <button class="tech-btn">Docker</button>
+                                <button class="tech-btn">Git</button>
+
+                            </div>
+
+                            <div class="btn-container">
+                                <button
+                                  class="btn btn-color-2 project-btn"
+                                  onclick="location.href='https://github.com/Saad-eng-pr/News-Spectrum'"
+                                >
+                                Github
+                                </button>
+
+                                <div id="imageModal1" class="modal">
+                                    <span class="close">&times;</span>
+                                    <div class="modal-content">
+                                      <div class="modal-images">
+                                        <h1 class="title1">Page d'accueil</h1>
+                                        <img src="./assets/NewsSpectrum/Image1.png" alt="Project Image 1">
+                                        <img src="./assets/NewsSpectrum/Image2.png" alt="Project Image 2">
+                                        <h1 class="title1">Inscription</h1>                                        
+                                        <img src="./assets/NewsSpectrum/Image3.png" alt="Project Image 3">
+                                        <h1 class="title1">Connexion</h1>
+                                        <img src="./assets/NewsSpectrum/Image4.png" alt="Project Image 4">
+                                        <h1 class="title1">Gestion du compte</h1>
+                                        <img src="./assets/NewsSpectrum/compte.png" alt="Project Image 5">
+                                        <h1 class="title1">Barre de recherche</h1>
+                                        <img src="./assets/NewsSpectrum/recherche.png" alt="Project Image 6">
+                                        <h1 class="title1">Choix des sources</h1>
+                                        <img src="./assets/NewsSpectrum/Image8.png" alt="Project Image 7">
+                                        <h1 class="title1">Exemple de recherche</h1>
+                                        <img src="./assets/NewsSpectrum/exemple.png" alt="Project Image 8">
+                                        <h1 class="title1">Détecteur de biais</h1>
+                                        <img src="./assets/NewsSpectrum/Image10.png" alt="Project Image 9">
+                                        <img src="./assets/NewsSpectrum/Image11.png" alt="Project Image 9">
+                                      </div>
+
+                                      <h1 class="title1">Demo utilisation</h1>
+                                      <video controls class="demo-video">
+                                        <source src="./assets/NewsSpectrum/news.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                      </video>
+                                    </div>
+                                </div>
+
+                                <div class="btn-container">
+                                    <button class="btn btn-color-2 live-demo-btn" data-target="#imageModal1">Live Demo</button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>  
+
+                    <div class="competences-container">
+                        <div class="competence-card">
+                            <img src="./assets/film.jpeg" alt="projet2" class="projet-img"   />
+                        
+                            <h2 class="competences-sub-title">FilmFinder</h2>
+                            <p class="description">Développement d’une API RESTful permettant la recherche, 
+                                l’administration et la pagination de films, 
+                                avec une validation rigoureuse des données. 
+                                Mise en place d’une authentification JWT afin de sécuriser l’accès aux ressources sensibles. 
+                                Le projet inclut également une interface web moderne pour une gestion fluide et intuitive des films.
+                            </p>
+
+                            <div class="tech-buttons">
+                                <button class="tech-btn">.NET</button>
+                                <button class="tech-btn">C#</button>
+                                <button class="tech-btn">Blazor</button>
+                                <button class="tech-btn">Sqlite</button>
+                                <button class="tech-btn">HTML</button>
+                                <button class="tech-btn">CSS</button>
+                                <button class="tech-btn">Git</button>
+                            </div>
+
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 "  
+                                onclick="location.href='https://github.com/Saad-eng-pr/Film-Finder'">
+                                Github</button>
+                            
+                                <div id="imageModal2" class="modal">
+                                    <span class="close">&times;</span>
+                                    <div class="modal-content">
+                                      <div class="modal-images">
+                                        <h1 class="title1">Page d'accueil</h1>
+                                        <img src="./assets/FilmFinder/Image1.png" alt="Project Image 1">
+                                        <h1 class="title1">Page d'Inscription</h1>
+                                        <img src="./assets/FilmFinder/Image2.png" alt="Project Image 2">
+                                        <h1 class="title1">Page de Connexion</h1>
+                                        <img src="./assets/FilmFinder/Image3.png" alt="Project Image 3">
+                                        <h1 class="title1">Page des films</h1>
+                                        <img src="./assets/FilmFinder/Image4.png" alt="Project Image 4">
+                                        <h1 class="title1">Recherche par mots-clés</h1>
+                                        <img src="./assets/FilmFinder/Image5.png" alt="Project Image 5">
+                                        <h1 class="title1">Recherche par IMDB-id</h1>
+                                        <img src="./assets/FilmFinder/Image6.png" alt="Project Image 6">
+                                        <h1 class="title1">Page des favoris</h1>
+                                        <img src="./assets/FilmFinder/Image7.png" alt="Project Image 7">
+                                        <h1 class="title1">Page d'administrateur</h1>
+                                        <img src="./assets/FilmFinder/Image8.png" alt="Project Image 8">
+                                        <img src="./assets/FilmFinder/Image9.png" alt="Project Image 9">
+                                      </div>
+
+                                      <h1 class="title1">Demo utilisateur</h1>
+                                      <video controls class="demo-video">
+                                        <source src="./assets/FilmFinder/Admin.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                      </video>
+                                      <h1 class="title1">Demo administrateur</h1>
+                                      <video controls class="demo-video">
+                                        <source src="./assets/FilmFinder/user.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                      </video>
+                                    </div>
+                                </div>
+
+                                <div class="btn-container">
+                                    <button class="btn btn-color-2 live-demo-btn" data-target="#imageModal2">Live Demo</button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="competences-container">
+                        <div class="competence-card">
+                            <img src="./assets/pentago.webp" alt="projet3" class="projet-img"   />
+                        
+                            <h2 class="competences-sub-title">Pentago</h2>
+                            <p>Développement d’une intelligence artificielle pour le jeu Pentago, en utilisant l’algorithme MINIMAX, 
+                                combiné avec des principes d’apprentissage par renforcement afin d’optimiser la prise de décision. 
+                                L’application intègre également une interface graphique interactive, 
+                                permettant aux joueurs d’affronter l’IA et de visualiser en temps réel les mouvements et stratégies mises en place.
+                            </p>
+                            
+                            <div class="tech-buttons">
+                                <button class="tech-btn">C</button>
+                                <button class="tech-btn">SDL/SDL2</button>
+                                <button class="tech-btn">Git</button>
+                            </div>
+
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 "  
+                                onclick="location.href='https://github.com/Saad-eng-pr/Pentago'">
+                                Github</button>
+                            
+                                <div id="imageModal4" class="modal">
+                                    <span class="close">&times;</span>
+                                    <div class="modal-content">
+                                      <div class="modal-images">
+                                        <h1 class="title1">Game Rules</h1>
+                                        <img src="./assets/Pentago/gameplay.webp" alt="Gameplay image 1">
+                                        <h1 class="title1">Home page</h1>
+                                        <img src="./assets/Pentago/Image1.png" alt="Project Image 1">
+                                        <h1 class="title1">Mode of play</h1>
+                                        <img src="./assets/Pentago/Image2.png" alt="Project Image 2">
+                                        <h1 class="title1">Initial state</h1>
+                                        <img src="./assets/Pentago/Image3.png" alt="Project Image 1">
+                                        <h1 class="title1">Mid-game state</h1>
+                                        <img src="./assets/Pentago/Image4.png" alt="Project Image 1">
+                                      </div>
+                                      
+                                      <h1 class="title1">Demo Player vs Player</h1>
+                                      <video controls class="demo-video">
+                                        <source src="./assets/Pentago-JvsJ.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                      </video>
+                                      <h1 class="title1">Demo Player vs Computer</h1>
+                                      <video controls class="demo-video">
+                                        <source src="./assets/Pentago/win.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                      </video>
+                                    </div>
+                                </div>
+
+                                <div class="btn-container">
+                                    <button class="btn btn-color-2 live-demo-btn" data-target="#imageModal4">Live Demo</button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="competences-container">
+                        <div class="competence-card">
+                            <img src="./assets/rollforit.webp" alt="projet3" class="projet-img"   />
+                        
+                            <h2 class="competences-sub-title">RollForIt</h2>
+                            <p class="description">Conception d’une intelligence artificielle pour le jeu Roll for It, 
+                                exploitant l’algorithme MCTS (Monte Carlo Tree Search) pour simuler et analyser différents scénarios de jeu. 
+                                L’application comprend une interface graphique intuitive et dynamique, 
+                                offrant une expérience fluide aux utilisateurs et rendant les interactions avec l’IA plus immersives.
+                            </p>
+
+                            <div class="tech-buttons">
+                                <button class="tech-btn">C</button>
+                                <button class="tech-btn">SDL/SDL2</button>
+                                <button class="tech-btn">Git</button>
+                            </div>
+
+                            <div class="btn-container">
+                                <button class="btn btn-color-2 "  
+                                onclick="location.href='https://github.com/Saad-eng-pr/Roll-For-It'" >
+                                Github</button>
+                            
+                                <div id="imageModal3" class="modal">
+                                    <span class="close">&times;</span>
+                                    <div class="modal-content">
+                                      <div class="modal-images">
+                                        <h1 class="title1">Game Rules</h1>
+                                        <img src="./assets/RollForIt/gameplay.png" alt="Gameplay image 1">
+                                        <h1 class="title1">Home page</h1>
+                                        <img src="./assets/RollForIt/Image1.png" alt="Project Image 1">
+                                        <h1 class="title1">Mode of play</h1>
+                                        <img src="./assets/RollForIt/Image2.png" alt="Project Image 2">
+                                        <h1 class="title1">Initial game state</h1>
+                                        <img src="./assets/RollForIt/Image3.png" alt="Project Image 3">
+                                      </div>
+
+                                      <h1 class="title1">Demo Player vs Player</h1>
+                                      <video controls class="demo-video">
+                                        <source src="./assets/RollForIt/pvsp.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                      </video>
+                                      <h1 class="title1">Demo Player vs Computer</h1>
+                                      <video controls class="demo-video">
+                                        <source src="./assets/RollForIt/bot.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                      </video>
+                                    </div>
+                                </div>
+
+                                <div class="btn-container">
+                                    <button class="btn btn-color-2 live-demo-btn" data-target="#imageModal3">Live Demo</button>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+
+                    
+                    
+                </div>
+                     
+                
+            </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow"
+        onclick="location.href='./#contact'">
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Prendre contact</p>
+        <h1 class="title">Contactez-moi</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:saad.amal.dev@gmail.com">saad.amal.dev@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/saad-amal/">LinkedIn</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/phone.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p>+33 7 51 12 77 19</p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#formation">Formation</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2025 Saad AMAL. All Rights Reserved.</p>
+      </footer>
+    <script src="script.js"></script>
+</body>
+</html>
